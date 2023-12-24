@@ -1,0 +1,7 @@
+bilemedim pek de bi fark oluşturmamış gibi geldi bana
+
+
+ama genel fikir şu:
+
+
+array'i main'de oluşturduğumuzda bu array stack'de ayrılmış oldu ki bu da daha hızlı vs olmalı sanırım.

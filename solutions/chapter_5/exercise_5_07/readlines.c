@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <time.h>
 
 #define MAXLINES 5000 // max # of lines to be sorted
 #define MAXLEN 1000
@@ -18,6 +19,7 @@ void quick_sort(char *line_ptr[], int left, int right);
 
 int main()
 {
+    unsigned int start = clock();
   int nr_of_lines;             // # of input lines read
   char stored_lines[MAXSTORE]; // # of chars to be stored for all lines
 
@@ -26,13 +28,14 @@ int main()
     quick_sort(line_ptr, 0, nr_of_lines - 1);
     printf("-----\n");
     writelines(line_ptr, nr_of_lines);
-    return 0;
   }
   else
   {
     printf("Error: input too big to sort.\n");
-    return 1;
   }
+    unsigned int end = clock();
+    double dblTime = ((double)(end - start)) / CLOCKS_PER_SEC;
+    printf("time: %f", dblTime);
 }
 
 int readlines(char *line_ptr[], int max_nr_of_lines, char *stored_lines)

@@ -1,10 +1,10 @@
 "/Users/talha/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=/Users/talha/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/CLion.app/Contents/bin/ninja/mac/ninja" -G Ninja -S /Users/talha/CLionProjects/C_PROGRAMMING_LANGUAGE_PROBLEMS -B /Users/talha/CLionProjects/C_PROGRAMMING_LANGUAGE_PROBLEMS/cmake-build-debug
--- The C compiler identification is AppleClang 15.0.0.15000040
+-- The C compiler identification is AppleClang 15.0.0.15000100
 -- Detecting C compiler ABI info
 -- Detecting C compiler ABI info - done
 -- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc - skipped
 -- Detecting C compile features
 -- Detecting C compile features - done
--- Configuring done (1.7s)
+-- Configuring done (2.5s)
 -- Generating done (0.0s)
 -- Build files have been written to: /Users/talha/CLionProjects/C_PROGRAMMING_LANGUAGE_PROBLEMS/cmake-build-debug
